@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 02:58:55 "/>
+        <attribute name="created" value="U29saWNvZGU7REVTS1RPUC0xUUNGUDg5OzIwMjEtMTAtMTI7IjAyOjU4OjM4ICI7MzA1MQ=="/>
+        <attribute name="edited" value="U29saWNvZGU7REVTS1RPUC0xUUNGUDg5OzIwMjEtMTAtMTI7IjAyOjU4OjU1ICI7MTszMTU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>
