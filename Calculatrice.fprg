@@ -4,12 +4,51 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Solicode"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-10-12 02:58:55 "/>
+        <attribute name="saved" value="2021-10-12 05:01:11 "/>
         <attribute name="created" value="U29saWNvZGU7REVTS1RPUC0xUUNGUDg5OzIwMjEtMTAtMTI7IjAyOjU4OjM4ICI7MzA1MQ=="/>
-        <attribute name="edited" value="U29saWNvZGU7REVTS1RPUC0xUUNGUDg5OzIwMjEtMTAtMTI7IjAyOjU4OjU1ICI7MTszMTU4"/>
+        <attribute name="edited" value="U29saWNvZGU7REVTS1RPUC0xUUNGUDg5OzIwMjEtMTAtMTI7IjA1OjAxOjExICI7MzszMTQz"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
-        <body/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="operateur" type="String" array="False" size=""/>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <input variable="operateur"/>
+            <if expression="operateur = &quot;+&quot;">
+                <then>
+                    <assign variable="result" expression="num1+num2"/>
+                    <output expression="result" newline="True"/>
+                </then>
+                <else>
+                    <if expression="operateur = &quot;-&quot;">
+                        <then>
+                            <assign variable="result" expression="num1 - num2"/>
+                            <output expression="result" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="operateur = &quot;*&quot;">
+                                <then>
+                                    <assign variable="result" expression="num1 * num2"/>
+                                    <output expression="result" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="operateur = &quot;/&quot;">
+                                        <then>
+                                            <assign variable="result" expression="num1 / num2"/>
+                                            <output expression="result" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
     </function>
 </flowgorithm>
